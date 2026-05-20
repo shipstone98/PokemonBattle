@@ -12,7 +12,7 @@ public enum PokemonExperienceGroup : BitwiseCopyable, CaseIterable, Codable, Has
     case fast
 }
 
-internal extension PokemonExperienceGroup {
+public extension PokemonExperienceGroup {
     func minimumExperience(at level: Int) -> Int {
         switch self {
         case .slow:
