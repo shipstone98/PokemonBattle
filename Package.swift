@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "PokemonBattle", targets: ["PokemonBattle"])
     ],
     dependencies: [
-        .package(url: "https://github.com/shipstone98/Utilities", from: "1.0.1")
+        .package(url: "https://github.com/shipstone98/Utilities", from: "1.0.2")
     ],
     targets: [
         .target(name: "PokemonBattle", dependencies: ["Utilities"]),
